@@ -43,6 +43,4 @@ pp2 = max(waveform_values2) - min(waveform_values2)
 gain = 20*np.log10(pp2/pp1)
 print("Gain in dB:", gain)
 
-
-
 plt.show()
